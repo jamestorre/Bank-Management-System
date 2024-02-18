@@ -63,7 +63,7 @@ As a design criteria, before the final execution of any operation, a confirmatio
 A trivial feature for the Account ID is for it to be unique in the database, i.e. no client can be assigned the same Account ID of another.
 For that reason, the system automatically assigns one for an account at its creation. The criteria used is that the next integer of the last registered account (which is also the greatest number) at the system is assigned.
 For instance, if the last registered account number has ID “156”, then the system will assign the ID number “157” for the next created account, since the new accounts are inserted at the end of the database (similarly to executing “push” to a stack).
-It provides the advantage that the new number generated was never used before, even former clients with the account deleted . This fact ensures that newer clients would not be mistaken with former ones if a superior institution would perform investigations at these accounts.
+It provides the advantage that the new number generated was never used before, even former clients with the account deleted. This system ensures that newer clients would not be mistaken with former ones if other institutions would perform investigations at these accounts.
 
 # Exception Management
 
