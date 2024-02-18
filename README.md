@@ -1,4 +1,4 @@
-# Bank-Management-System
+# Bank Management System
 
 Nowadays, bank operations greatly depend on digital systems where all their customers' data are stored and handled. Due to this fact, economical institutions greatly invest for the development and maintenance of such systems, from which is the source of the Bank’s income, reputation and finally its commercial success. It is of extreme importance to produce a reliable, efficient and secure environment to work with.
 
