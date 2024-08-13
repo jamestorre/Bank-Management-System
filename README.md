@@ -22,11 +22,6 @@ Evidently, further attributes, such as e.g. client’s address, telephone number
 
 Meanwhile, the Database class is used to manage and store all clients data. It is organized as an array of Account objects (Account*, as a pointer), and it also contains the database current size.
 
-![Demo](./docs/images/db_class.png)
-
-Fig. 1. Representation of the database class.
-
-
 All the current data stored at the Database class (namely, the array of Accounts) can be saved or loaded from an external “.csv” file. This file extension was chosen for its convenience for organizing all data as a matrix, each row representing all data of a client, and each column with the same value attribute type.
 
 # The algorithm
